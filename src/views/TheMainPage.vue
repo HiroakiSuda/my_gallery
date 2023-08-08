@@ -25,7 +25,7 @@
     </div>
   </div>
 
-  <div class="absolute w-full">
+  <div class="w-full">
     <div id="bread" class="pb-4 text-4xl bg-main_bg">- Bread Photos -</div>
     
     <div class="bg-main_bg"> 
@@ -65,15 +65,15 @@
           shadowScale: 0.94,
         }"
         :modules="modules"
+        
         :loop="true"
-        :speed="1500"
-        :autoplay="{delay:1500}"           
+        :speed="3000"
+        :autoplay="{delay:0, disableOnInteraction:ture}"           
       >
         <swiper-slide><img :src="require(`/src/assets/img/piece.jpg`)" alt="piece_1" ></swiper-slide>
         <swiper-slide><img :src="require(`/src/assets/img/piece_1.jpg`)" alt="piece_1" ></swiper-slide>
         <swiper-slide><img :src="require(`/src/assets/img/piece_2.jpg`)" alt="piece_2" ></swiper-slide>
         <swiper-slide><img :src="require(`/src/assets/img/piece_3.jpg`)" alt="piece_3" ></swiper-slide>
-        <swiper-slide><img :src="require(`/src/assets/img/piece_4.jpg`)" alt="piece_3" ></swiper-slide>
       </swiper>
     </div>
 
