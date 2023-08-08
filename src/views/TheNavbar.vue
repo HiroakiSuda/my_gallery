@@ -1,6 +1,6 @@
 <template>
   <div class="bg-nav_bg w-full flex justify-between">
-    <p class="flex items-center xs:pl-4 md:pl-8 pb-4 mt-6 text-2xl lg:text-5xl text-amber-500 text-start font-bold">Home Made Bread Gallery</p>
+    <p class="flex items-center xs:pl-4 md:pl-8 pb-4 mt-6 text-2xl lg:text-5xl text-amber-500 text-start font-bold">Home Made Bread Gallery_</p>
     <div class="mb-2 text-lg flex flex-col justify-strech items-end 
                 md:flex-row pt-4">
       <router-link to="/#about">
